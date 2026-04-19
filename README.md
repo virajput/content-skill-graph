@@ -1,5 +1,7 @@
 # Content Skill Graph
 
+Based on: [https://x.com/DeRonin_/status/2042604279077237170?s=20]
+
 A markdown-based content production system for **The Neural Blueprint** — turns one topic into 8 platform-native posts that each think about the topic differently.
 
 ## What It Does
