@@ -34,12 +34,36 @@ content-skill-graph/
 └── usageguide/           ← how to use this with Claude Projects or Claude Code
 ```
 
+## Installation
+
+### Prerequisites
+
+- [Obsidian](https://obsidian.md/) (free) — for browsing and editing the vault locally
+- A Claude account — either [Claude.ai](https://claude.ai) (Projects) or [Claude Code](https://claude.ai/code) (CLI)
+
+### Clone the repo
+
+```bash
+git clone https://github.com/virajput/content-skill-graph.git
+cd content-skill-graph
+```
+
+### Open in Obsidian
+
+1. Open Obsidian → **Open folder as vault**
+2. Select the `content-skill-graph/` directory
+3. Trust the plugins when prompted (Dataview, Templater, Calendar are pre-configured)
+
+That's it — no build step, no dependencies to install. The vault is ready to use.
+
+---
+
 ## Quick Start
 
-### Option 1: Claude Project
+### Option 1: Claude Project (recommended for beginners)
 
-1. Create a new Claude Project
-2. Upload this entire folder
+1. Create a new Claude Project at [claude.ai](https://claude.ai)
+2. Upload this entire folder (or sync via Google Drive / Dropbox)
 3. Use this prompt:
 
 ```
@@ -52,19 +76,41 @@ Rethink the angle, hook, tone, and structure for each platform.
 Return outputs for X, LinkedIn, Instagram, TikTok, YouTube, Threads, Facebook, and Newsletter.
 ```
 
-### Option 2: Claude Code (local)
+### Option 2: Claude Code (local, most powerful)
+
+Install Claude Code if you haven't:
+
+```bash
+npm install -g @anthropic-ai/claude-code
+```
+
+Then open the vault directory in your terminal:
 
 ```bash
 cd content-skill-graph
+claude
 ```
 
-Then prompt:
+Paste this prompt:
 
 ```
 Read index.md first.
 Traverse all linked markdown files relevant to the topic "[YOUR TOPIC]".
 Generate 8 platform-native content assets using the repurpose chain.
 Save outputs in outputs/[topic-slug]/ with one markdown file per platform.
+```
+
+Outputs land in `outputs/[topic-slug]/` — one `.md` file per platform, ready to copy-paste.
+
+### Option 3: Copy-paste into any Claude chat
+
+No install needed. Open `index.md`, copy its contents, paste it into Claude with your topic appended:
+
+```
+[paste index.md contents here]
+
+Topic: [YOUR TOPIC]
+Generate platform-native content for all 8 platforms.
 ```
 
 ## Recommended Weekly Workflow
