@@ -1,0 +1,20 @@
+# Obsidian plugin bundles — large JS files, not useful to Claude
+.obsidian/plugins/
+
+# Obsidian UI/workspace state — not content
+.obsidian/workspace.json
+.obsidian/workspace-visual.json
+.obsidian/query.json
+
+# CSS snippets and themes
+.obsidian/snippets/
+
+# macOS metadata
+.DS_Store
+**/.DS_Store
+
+# HTML exports
+**/*.html
+
+# Obsidian temp/cache
+.obsidian/cache
