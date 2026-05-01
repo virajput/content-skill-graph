@@ -29,3 +29,11 @@ A spoken-first format for TikTok, Reels, Shorts, or YouTube.
 A deep email format built around one strong idea.
 - Best for: authority building and owned audience growth
 - Structure: subject line → opening story → main lesson → framework → CTA
+
+## Research Breakdown
+A Substack-anchored format for turning a research paper into platform-native content across the full repurpose chain.
+- Best for: papers with production implications for builders, engineers, architects
+- Source: academic paper (URL, arXiv ID, PDF, or title)
+- Anchor output: [[substack]] article (1,200–2,000 words) with rubric evaluation
+- Chain: substack → x → linkedin → instagram → youtube → tiktok → threads → facebook
+- Pipeline: [[paper-to-content]] — follow that node for ingestion, scaffold, hallucination check, and rubric rules
